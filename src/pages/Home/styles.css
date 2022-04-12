@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  width: 90%;
+  height: 8rem;
+  overflow-x: auto;
+
+}
+button {
+  width: 8rem;
+  height: 3rem;
+  border: solid 1px ;
+  background: #3bcad1;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover{
+  background: #3bca;
+}
